@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+}
+
+.panel{
+    background: cover center no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color:#fff;
+    cursor: pointer;
+    flex: 1;
+    margin: 10px;
+}
