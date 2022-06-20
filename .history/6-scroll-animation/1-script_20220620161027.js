@@ -1,0 +1,1 @@
+const boxs = document.querySelectorAll(".box");
