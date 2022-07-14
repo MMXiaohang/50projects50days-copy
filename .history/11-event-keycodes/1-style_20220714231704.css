@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.insert {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    
+}
