@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.container p{
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.container p:first-child {
+    font-size: 24px;
+    opacity: 0.9;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag {
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    color: #fff;
+    background-color:orange;
+    outline: 0;
+}
