@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eafbff;
+    background-image: linear-gradient(
+        skyblue 0%, skyblue 50%,
+         blue 50%, blue 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #eafbff;
+    background-image: linear-gradient(
+        to bottom,
+        #eafbff 0%,
+        #eafbff 50%,
+        #5290f9 50%,
+        #5290f9 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+nav {
+    background-color: #fff;
+    padding: 20px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: width 0.6s linear;
+    overflow-x: hidden;
+    content-visibility: hidden;
+}
